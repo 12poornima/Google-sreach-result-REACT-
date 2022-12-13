@@ -1,8 +1,8 @@
 
 
-function Serachparagraph() {
+function Serachparagraph(props) {
     return (
-        <div className="para" >Props are Read-Only ... Such functions are called “pure” because they do not attempt to change their inputs, and always return the same result for the same inputs ...</div>
+        <div className="para" >{props.para}</div>
     )
 }
 

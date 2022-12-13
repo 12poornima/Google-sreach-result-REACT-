@@ -29,10 +29,40 @@ body {
 
 .link1 {
     text-decoration: none;
-    color: blueviolet;
+    color: rgb(130, 10, 241);
     font-size: x-large;
+    font-weight: 500;
 }
 
 .link-box {
     padding: 10px 10px;
+}
+
+.last-container {
+    display: flex;
+}
+
+.container-box {
+    margin-left: 200px;
+    width: 500px;
+    padding: 10px 50px;
+}
+
+.last {
+    font-weight: 900;
+    font-size: xx-large;
+}
+
+.para-container {
+    display: flex;
+}
+
+.para-box {
+    margin-left: 200px;
+    width: 500px;
+    padding: 1px 50px;
+}
+
+.para22 {
+    font-family: 'Roboto', sans-serif;
 }

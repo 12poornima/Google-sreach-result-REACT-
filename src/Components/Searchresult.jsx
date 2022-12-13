@@ -7,9 +7,10 @@ function Searchresult(props) {
     return (
         <div className="google-contanier">
             <div className="card" >
-                <SearchLink />
+                <SearchLink link={props.link} />
                 <SearchTitle myTitle={props.myTitle} />
-                <Serachparagraph />
+                <Serachparagraph para={props.para} />
+
             </div>
         </div>
     )

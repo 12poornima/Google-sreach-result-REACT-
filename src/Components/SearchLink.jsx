@@ -1,9 +1,9 @@
 
 
-function SearchLink() {
+function SearchLink(props) {
     return (
         <div>
-            <div className="link-box" ><a className='link' href="http://reactjs.org">http://reactjs.org &lt; docs &lt; components-and-props  </a>
+            <div className="link-box" ><a className='link' href="###">{props.link} &lt; docs &lt; components-and-props  </a>
             </div>
 
         </div>
